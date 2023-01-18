@@ -2,20 +2,137 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="./img/favicon.ico" />
+		<title>Mjr</title>
+		<meta name="description" content="Lucas Bivar | Developer" />
+		<meta name="keywords" content="personal-website-dev-html5-css" />
+		<meta name="author" content="Lucas Bivar" />
 		<link rel="stylesheet" href="./CSS-My Site/styles.css" />
-		<title>MaksatovJr</title>
+		<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<div class="top-container">
-			<h1>I am Daniyar</h1>
-			<p>a software developer.</p>
+		<header>
+			<div class='wrapper'>
+				<div class="nav">
+					<div class="navigation-menu">
+						<ul class="nav-items">
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+					<div>
+						<button id="menu-button" onclick="toggleMenu()">Menu</button>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="nav">
+				<nav id="navigation-menu">
+					<ul>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<button id="menu-button" onclick="toggleMenu()">Menu</button>
+						
+					</ul>
+				</nav>
+			</div> -->
+			<div class="top-container">
+				<img class="top-cloud" src="./img/cloud.png" alt="cloud-image" />
+				<h1>I'm Daniyar</h1>
+				<div class="typing">
+					<h2>i'm a developer</h2>
+				</div>
+				<img class="bottom-cloud" src="./img/cloud.png" alt="cloud-image" />
+				<img src="./img/mountain.png" alt="mountain-image" />
+			</div>
+		</header>
+
+		<div id="about">
+			<h1>About Me</h1>
+			<div class="about-me-container">
+				<img src="./img/avatar.png" alt="Your Name" class="about-me-image" />
+				<div class="about-me-text">
+					<p>
+						Hello<br />
+						I'm Daniyar Maksatov <br />
+						I am a Software Developer.<br />
+						I have 2 of experience in Software Development and I am passionate
+						about coding and solving problems. I have a degree in Computer
+						Science from Nazarbayev University.
+					</p>
+					<p>
+						I have worked on several projects in my field, including goCargo.kz,
+						BitSwap, and CMS TCO. I am excited to share my skills and experience
+						with others and am always looking for new opportunities to learn and
+						grow.
+					</p>
+				</div>
+			</div>
 		</div>
-		<div class="middle-container">
+
+		<div id="projects">
+			<h1>My Projects</h1>
+			<ul>
+				<li>goCargo.kz</li>
+				<li>BitSwap</li>
+				<li>CMS TCO</li>
+			</ul>
 		</div>
-		<div class="bottom-container">
+
+		<p>
+			You can download my resume <a href="path/to/your/resume">here</a> and
+			connect with me on social media:
+			<a href="https://www.linkedin.com/in/maksatovjr">LinkedIn</a>
+			<a href="https://github.com/maksatov">Github</a>
+			<a href="https://www.instagram.com/maksatovjr">Instagram</a>
+		</p>
+
+		<div id="skills">
+			<h2>My Skills</h2>
+			<div class="skill-row">
+				<img
+					class="programming-image"
+					src="./img/computer.png"
+					alt="code-image"
+				/>
+				<h3>Developer</h3>
+				<p>
+					I have experience with C/C++, Python 3, Arduino, HTML, CSS,
+					Javascript, Node.js and MongoDB.
+				</p>
+			</div>
+			<div class="skill-row">
+				<img class="guitar-image" src="./img/chillies.png" alt="guitar-image" />
+				<h3>Eating</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+					debitis molestiae minima voluptates? Veritatis aspernatur iure
+					inventore, nobis sed quod necessitatibus culpa unde molestiae, eius
+					itaque reiciendis expedita ipsam sequi!
+				</p>
+			</div>
 		</div>
+
+		<div id="contact">
+			<h1>Contact Me</h1>
+			<p>
+				You can contact me by email at
+				<a href="mailto:[Your Email]">maksatovjr@gmail.com</a> or by phone at
+				+77089001097.
+			</p>
+		</div>
+
+		<footer>
+			<p>Copyright © Daniyar Maksatov 2023</p>
+		</footer>
 	</body>
 </html>
